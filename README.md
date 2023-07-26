@@ -3,8 +3,9 @@
 
 ### **Instructions for Running Scripts**
 * Clone the repository to your local machine
-* Ensure you cd into the "/python-api-challenge" directory and use first the **WeatherPy_Bourgeois.ipynb** and then **VacationPy_Bourgeois.ipynb** Jupyter Notebooks.
-* Note the updated csv and figures output from WeatherPy_Bourgeois.ipynb will be located in the folder "/python-api-challenge/output"
+* Ensure you cd into the "/python-api-challenge" directory and first use the **WeatherPy_Bourgeois.ipynb** and then **VacationPy_Bourgeois.ipynb** Jupyter Notebooks.
+* The updated csv and figures output from WeatherPy_Bourgeois.ipynb will be located in the folder "/python-api-challenge/output"
+* NOTE: running the scripts will generate a new random dataset each time, which will update the csv and figures in output. Additionally, if you compare to the example starter code the dataframes, csv and figures will contain different data.
 
 ### **BACKGROUND** 
 
@@ -49,7 +50,7 @@ While the obvious answer is "It gets hotter.", we will prove it using city and w
 
 * Narrow down the city_data_df DataFrame to find your ideal weather condition (5 points)
 
-* For each city in the hotel_df DataFrame, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates (10 points)
+* For each city in the hotel_df DataFrame, use the Geoapify API to find the first hotel (if any) located within 10,000 metres of your coordinates (10 points)
 
 * Add the hotel name and the country as additional information in the hover message for each city in the map. (10 points)
 
